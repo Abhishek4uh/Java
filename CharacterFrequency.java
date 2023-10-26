@@ -15,5 +15,10 @@ public class Main
 		    }
 		}
 		System.out.println(record);
+
+		//we can print in this way..
+		for(Map.Entry<Character, Integer> entry : record.entrySet()){
+		    System.out.println(entry);
+		}
 	}
 }
